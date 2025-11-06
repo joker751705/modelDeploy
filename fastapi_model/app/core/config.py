@@ -21,9 +21,9 @@ class Settings(BaseSettings):
     DETR_MODEL_PATH: str = "models/detr/detr_model.onnx"
     MASKDINO_MODEL_PATH: str = "models/detr/maskdino_sem.onnx"
 
-    RABBITMQ_USER: str = "market"
-    RABBITMQ_PASS: str = "j18728493209"
-    RABBITMQ_HOST: str = "localhost"
+    RABBITMQ_USER: str = ""
+    RABBITMQ_PASS: str = ""
+    RABBITMQ_HOST: str = ""
     RABBITMQ_PORT: int = 5672
     RABBITMQ_VHOST: str = os.getenv('RABBITMQ_VHOST', '/')
 
